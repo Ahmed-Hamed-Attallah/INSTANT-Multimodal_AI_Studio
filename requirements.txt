@@ -1,9 +1,10 @@
 # --- Deep Learning Core ---
 # Note: Install PyTorch with your matching CUDA version via pytorch.org if using GPU
-torch>=2.2.0
-torchvision>=0.17.0
-torchaudio>=2.2.0
-accelerate>=0.28.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+transformers
+pillow
 
 # --- Transformers & Hub ---
 transformers>=4.40.0

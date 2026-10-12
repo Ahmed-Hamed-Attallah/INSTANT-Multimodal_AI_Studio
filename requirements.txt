@@ -1,0 +1,47 @@
+# --- Deep Learning Core ---
+# Note: Install PyTorch with your matching CUDA version via pytorch.org if using GPU
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+accelerate>=0.28.0
+
+# --- Transformers & Hub ---
+transformers>=4.40.0
+huggingface-hub>=0.22.0
+sentencepiece>=0.2.0
+
+# --- Vision & OCR ---
+pillow>=10.2.0
+opencv-python-headless>=4.9.0.80
+easyocr>=1.7.1
+pytesseract>=0.3.10
+pypdfium2>=4.28.0
+
+# --- Audio Processing ---
+openai-whisper>=20231117
+librosa>=0.10.1
+soundfile>=0.12.1
+
+# --- Text & Summarization ---
+nltk>=3.8.1
+
+# --- Frontend & Backend Web ---
+streamlit>=1.33.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+
+# --- Data Validation & Configuration ---
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.1
+
+# --- Evaluation Metrics ---
+rouge-score>=0.1.2
+jiwer>=3.0.3
+scikit-learn>=1.4.0
+
+# --- Testing & Utilities ---
+pytest>=8.1.0
+tqdm>=4.66.0

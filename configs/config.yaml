@@ -1,0 +1,17 @@
+app:
+  name: "Multimodal AI Studio"
+  version: "1.0.0"
+  device: "cuda" # fallback to 'cpu' if no GPU available
+  cache_dir: "artifacts/"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  samples_dir: "data/samples"
+  outputs_dir: "outputs"
+
+models:
+  vision_caption: "Salesforce/blip-image-captioning-base"
+  visual_qa: "dandelin/vilt-b32-finetuned-vqa"
+  whisper_size: "base"
+  summarizer: "facebook/bart-large-cnn"

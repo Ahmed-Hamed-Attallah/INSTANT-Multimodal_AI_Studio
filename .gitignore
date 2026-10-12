@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment configurations and secrets
+.env
+.env.local
+*.env
+
+# Logs (keep directory structure via .gitkeep)
+logs/*
+!logs/.gitkeep
+*.log
+
+# Docker
+.dockerignore
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data files
+data/raw/*

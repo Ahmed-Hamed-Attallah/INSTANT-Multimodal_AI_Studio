@@ -1,0 +1,4 @@
+languages: ["en"]
+gpu: true
+paragraph: false
+detail: 1

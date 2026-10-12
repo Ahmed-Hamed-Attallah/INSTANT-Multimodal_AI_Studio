@@ -1,0 +1,5 @@
+model_name: "Salesforce/blip-image-captioning-base"
+vqa_model_name: "dandelin/vilt-b32-finetuned-vqa"
+image_size: [384, 384]
+max_new_tokens: 50
+num_beams: 3

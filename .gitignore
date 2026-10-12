@@ -28,5 +28,17 @@ logs/*
 .DS_Store
 Thumbs.db
 
-# Data files
+# Generated outputs
+outputs/
+logs/*
+!logs/.gitkeep
+
+# Data & heavy assets
 data/raw/*
+data/samples/audio/*.flac
+data/samples/audio/*.mp3
+
+# Python caches
+__pycache__/
+*.pyc
+.env

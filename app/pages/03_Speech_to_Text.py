@@ -3,6 +3,15 @@ import tempfile
 from pathlib import Path
 import streamlit as st
 from app.services.audio_service import AudioService
+import sys
+from pathlib import Path
+
+# Add the root directory to sys.path
+root_dir = Path(__file__).resolve().parent.parent
+if str(root_dir) not in sys.path:
+    sys.path.append(str(root_dir))
+
+# Now import your utility
 from utils.output_saver import save_output
 
 st.markdown("### 🎙️ Speech to Text & Audio Q&A")

@@ -1,6 +1,15 @@
 import streamlit as st
 from PIL import Image
 from app.services.ocr_service import OCRService
+import sys
+from pathlib import Path
+
+# Add the root directory to sys.path
+root_dir = Path(__file__).resolve().parent.parent
+if str(root_dir) not in sys.path:
+    sys.path.append(str(root_dir))
+
+# Now import your utility
 from utils.output_saver import save_output
 
 st.markdown("### 📄 OCR & Layout Analysis")
